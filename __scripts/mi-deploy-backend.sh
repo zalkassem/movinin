@@ -4,7 +4,7 @@ start_time=$(date +%s)
 echo "Deploying Movin' In backend..."
 
 cd /opt/movinin
-git pull
+#git pull
 sudo chmod +x -R /opt/movinin/__scripts
 
 cd /opt/movinin/backend
