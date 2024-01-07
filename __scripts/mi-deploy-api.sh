@@ -4,7 +4,7 @@ start_time=$(date +%s)
 echo "Deploying Movin' In API..."
 
 cd /opt/movinin
-git pull
+#git pull
 chmod +x -R /opt/movinin/__scripts
 
 cd /opt/movinin/api
